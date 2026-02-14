@@ -1,4 +1,3 @@
-
 body {
   background: linear-gradient(135deg, #667eea, #764ba2);
   display: flex;
@@ -7,6 +6,31 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
 }
+.card {
+  background-color: red;
+}
 
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
 
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
 
+button:hover {
+  background-color: #5a67d8;
+  transform: translateY(-3px);
+}
